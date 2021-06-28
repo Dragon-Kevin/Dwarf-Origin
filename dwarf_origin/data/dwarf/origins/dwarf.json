@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "dwarf:night_vision",
+        "dwarf:dwarven_strength",
+        "dwarf:poison_immunity",
+        "dwarf:more_exhaustion"        
+    ],
+    "icon": "minecraft:bedrock",
+    "order": 0,
+    "impact": 2,
+    "name": "Dwarf",
+    "description": "Kevnadian Dwarf Origin - V1.0"
+}

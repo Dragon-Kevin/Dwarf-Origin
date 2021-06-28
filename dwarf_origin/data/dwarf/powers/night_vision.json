@@ -1,0 +1,6 @@
+{
+    "type": "origins:night_vision",
+    "strength": 0.4,
+    "name": "Darkvision",
+    "description": "Dwarves can see in the dark."
+}

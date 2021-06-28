@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "origins:natural_stone"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.4
+    },
+    "name": "Dwarven Strength",
+    "description": "Dwarves can mine some blocks faster."
+}

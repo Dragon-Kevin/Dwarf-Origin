@@ -1,0 +1,9 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:hunger",
+        "minecraft:poison"
+    ],
+    "name": "Strong Stomach",
+    "description": "Dwarves can eat some things they shouldn't." 
+}
