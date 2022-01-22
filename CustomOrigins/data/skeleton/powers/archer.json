@@ -1,0 +1,54 @@
+{
+	"type": "origins:multiple",
+	"equip": {
+		"type": "origins:starting_equipment",
+		"stacks": [
+		{
+			"item": "minecraft:bow",
+			"slot": 0
+		},
+		{
+			"item": "minecraft:arrow",
+			"amount": 64,
+			"slot": 1
+		}
+		]
+	},
+	"keepstuff": {
+		"type": "origins:keep_inventory",
+		"item_condition": {
+			"type": "origins:or",
+			"conditions": [
+			{
+				"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:bow"
+					}
+			},
+			{
+				"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:arrow"
+					}
+			}
+			]
+		}
+	},
+	"arrowspawn": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:give",
+			"stack": {
+				"item": "minecraft:arrow",
+				"amount": 64
+			}
+		},
+		"cooldown": 12000,
+		"hud_render": {
+			"should_render": true,
+			"bar_index": 3
+		}
+	},
+	"name": "Natural Archer",
+	"description": "You spawn with a bow in your inventory, and you can magically conjure enough arrows to use it."
+}

@@ -1,0 +1,70 @@
+{
+    "type": "origins:multiple",
+	"nofood": {
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:food"
+		}
+	},
+	"milk": {
+		"type": "origins:action_on_item_use",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:milk_bucket"
+			}
+		},
+		"entity_action": {
+			"type": "origins:feed",
+			"food": 8.0,
+			"saturation": 16.0
+		}
+	},
+	"bonemeal": {
+		"type": "origins:active_self",
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:bone_meal"
+					}
+				}
+			},
+			{      
+				"type": "origins:food_level",
+				"comparison": "<",
+				"compare_to": 20
+			}
+			]
+		},
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+			{
+				"type": "origins:feed",
+				"food": 4,
+				"saturation": 2
+			},
+			{
+			  "type": "origins:equipped_item_action",
+			  "equipment_slot": "mainhand",
+			  "action": {
+				  "type": "origins:consume",
+				  "amount": 1
+				}
+			}
+			]
+		},
+		"cooldown": 10,
+		"key": {
+			"key": "key.use"
+		}
+	},
+	"name": "Calcium-Deficient",
+	"description": "A healthy skeleton consumes plenty of milk and bonemeal."
+}

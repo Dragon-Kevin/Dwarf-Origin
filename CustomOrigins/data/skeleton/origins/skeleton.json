@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"skeleton:archer",
+		"skeleton:undead",
+		"skeleton:calcium-deficient",
+		"skeleton:brittle-bones"
+	],
+	"icon": "minecraft:bow",
+	"order": 11,
+	"impact": 2,
+	"name": "Skeleton",
+	"description": "Once, perhaps, you were something else. Now, you're a skeleton with the usual passion for archery."
+}

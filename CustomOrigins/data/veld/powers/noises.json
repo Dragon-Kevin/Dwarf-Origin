@@ -1,0 +1,37 @@
+{
+	"type": "origins:multiple",
+	"hurt": {
+		"type": "origins:action_when_damage_taken",
+		"condition": {
+			"type": "origins:health",
+			"comparison": ">",
+			"compare_to": 0
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.villager.hurt"
+		},
+		"cooldown": 10
+	},
+	"mumble": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.villager.ambient"
+		}
+	},
+	"death": {
+		"type": "origins:action_when_damage_taken",
+		"condition": {
+			"type": "origins:health",
+			"comparison": "<=",
+			"compare_to": 0
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.villager.death"
+		},
+		"cooldown": 10
+	},
+	"hidden": true
+}

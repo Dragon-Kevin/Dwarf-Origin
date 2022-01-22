@@ -1,0 +1,14 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 60,
+    "effect": {
+        "effect": "minecraft:mining_fatigue",
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": false
+    },
+	"name": "Poor Grip",
+	"description": "As a villager and an elder, it's amazing you can mine at all, but you do so slower than others."
+}

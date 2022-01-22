@@ -1,0 +1,8 @@
+{
+	"type": "origins:starting_equipment",
+	"stacks": {
+		"item": "minecraft:bell"
+	},
+	"name": "Bellkeeper",
+	"description": "You start with a bell in your inventory."
+}

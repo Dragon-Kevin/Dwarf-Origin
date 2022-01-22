@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"veld:bellkeeper",
+		"veld:spawn-villager",
+		"veld:poor-grip",
+		"veld:need-hero",
+		"veld:noises",
+		"veld:village-founder"
+	],
+	"icon": "minecraft:bell",
+	"order": 11,
+	"impact": 2,
+	"name": "Village Elder",
+	"description": "An esteemed villager elder. His people come when he calls them."
+}

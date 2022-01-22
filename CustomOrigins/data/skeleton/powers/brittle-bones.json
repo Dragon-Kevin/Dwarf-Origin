@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -6.0
+    },
+	"name": "Brittle Bones",
+	"description": "Your old bones are a bit fragile, so take care."
+}

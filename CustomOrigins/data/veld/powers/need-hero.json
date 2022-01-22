@@ -1,0 +1,27 @@
+{
+    "type": "origins:multiple",
+	"melee": {
+		"type": "origins:modify_damage_dealt",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": -1
+		},
+		"target_condition": {
+			"type": "origins:in_tag",
+			"tag": "minecraft:raiders"
+		}
+	},
+	"ranged": {
+		"type": "origins:modify_projectile_damage",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": -1
+		},
+		"target_condition": {
+			"type": "origins:in_tag",
+			"tag": "minecraft:raiders"
+		}
+	},
+	"name": "I Need A Hero",
+	"description": "Fighting Pillagers? Defending your people? Heck no! You're just a villager!"
+}
